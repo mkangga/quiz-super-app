@@ -1,6 +1,6 @@
 import React from 'react';
 import { Quiz } from '../types';
-import { ExternalLink, Lock, Globe } from 'lucide-react';
+import { ExternalLink, Lock } from 'lucide-react';
 
 interface QuizCardProps {
   quiz: Quiz;
@@ -9,7 +9,6 @@ interface QuizCardProps {
 
 export const QuizCard: React.FC<QuizCardProps> = ({ quiz, onPlay }) => {
   const isLocked = quiz.isLocked;
-  const isExternal = !!quiz.externalUrl;
 
   return (
     <div 
@@ -33,19 +32,8 @@ export const QuizCard: React.FC<QuizCardProps> = ({ quiz, onPlay }) => {
             {quiz.difficulty === 'Easy' ? 'Mudah' : quiz.difficulty === 'Medium' ? 'Menengah' : 'Sulit'}
           </span>
 
-          {isLocked ? (
+          {isLocked && (
              <Lock className="w-5 h-5 text-slate-400" />
-          ) : (
-             <span className="text-xs text-slate-500 flex items-center bg-slate-100 px-2 py-1 rounded-md border border-slate-200">
-                {isExternal ? (
-                  <>
-                    <Globe className="w-3 h-3 mr-1.5" />
-                    Website
-                  </>
-                ) : (
-                  <>Soal Internal</>
-                )}
-             </span>
           )}
         </div>
         
