@@ -17,7 +17,7 @@ export const externalQuizzes: Quiz[] = [
     description: 'Uji wawasanmu seputar kisah para Nabi (Bagian 1) V.2.0.',
     category: 'Sejarah Islam',
     difficulty: 'Easy',
-    externalUrl: 'https://kuis-kenabian-v2.pages.dev/',
+    externalUrl: 'https://kuis-kenabian-update.pages.dev/',
     createdAt: Date.now(),
     questions: []
   },
@@ -37,7 +37,7 @@ export const externalQuizzes: Quiz[] = [
     description: 'Uji wawasanmu seputar kisah para Nabi (Bagian 2) V.2.0.',
     category: 'Sejarah Islam',
     difficulty: 'Easy',
-    externalUrl: 'https://kuis-nabi-rasul-v2.pages.dev/',
+    externalUrl: 'https://kuis-nabi-rasul-update.pages.dev/',
     createdAt: Date.now(),
     questions: []
   },
