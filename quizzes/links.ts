@@ -12,7 +12,7 @@ export const externalQuizzes: Quiz[] = [
     questions: []
   },
   {
-    id: 'link-nabi-1',
+    id: 'link-nabi-1-2',
     title: 'Kuis Kenabian 1 V.2.0',
     description: 'Uji wawasanmu seputar kisah para Nabi (Bagian 1) V.2.0.',
     category: 'Sejarah Islam',
@@ -32,7 +32,7 @@ export const externalQuizzes: Quiz[] = [
     questions: []
   },
   {
-    id: 'link-nabi-2',
+    id: 'link-nabi-2-2',
     title: 'Kuis Kenabian 2 V.2.0',
     description: 'Uji wawasanmu seputar kisah para Nabi (Bagian 2) V.2.0.',
     category: 'Sejarah Islam',
