@@ -21,4 +21,14 @@ export const externalQuizzes: Quiz[] = [
     createdAt: Date.now(),
     questions: []
   },
+  {
+    id: 'link-nabi-2',
+    title: 'Kuis Kenabian 2 V.2.0',
+    description: 'Uji wawasanmu seputar kisah para Nabi (Bagian 2) V.2.0.',
+    category: 'Sejarah Islam',
+    difficulty: 'Easy',
+    externalUrl: 'https://kuis-nabi-rasul-v2.pages.dev/',
+    createdAt: Date.now(),
+    questions: []
+  },
 ];
