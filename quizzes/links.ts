@@ -21,6 +21,16 @@ export const externalQuizzes: Quiz[] = [
     createdAt: Date.now(),
     questions: []
   },
+   {
+    id: 'link-nabi-1-3',
+    title: 'Kuis Kenabian 1 V.3.0',
+    description: 'Uji wawasanmu seputar kisah para Nabi (Bagian 1) V.3.0.',
+    category: 'Sejarah Islam',
+    difficulty: 'Easy',
+    externalUrl: 'https://kuis-kenabian-v3.pages.dev/',
+    createdAt: Date.now(),
+    questions: []
+  },
   {
     id: 'link-nabi-2',
     title: 'Kuis Kenabian 2',
@@ -38,6 +48,16 @@ export const externalQuizzes: Quiz[] = [
     category: 'Sejarah Islam',
     difficulty: 'Easy',
     externalUrl: 'https://kuis-nabi-rasul-update.pages.dev/',
+    createdAt: Date.now(),
+    questions: []
+  },
+  {
+    id: 'link-nabi-2-3',
+    title: 'Kuis Kenabian 2 V.3.0',
+    description: 'Uji wawasanmu seputar kisah para Nabi (Bagian 2) V.3.0.',
+    category: 'Sejarah Islam',
+    difficulty: 'Easy',
+    externalUrl: 'https://kuis-nabi-rasul-v3.pages.dev/',
     createdAt: Date.now(),
     questions: []
   },
